@@ -1,0 +1,54 @@
+QWidget
+{
+	background-color: #353F5B;
+	color: #ffffff;
+}
+
+QListView
+{
+	border-radius: 0px;
+}
+
+QListView::item
+{
+	height: 30px;
+	background-color: #423A6F;
+	border: 1px solid;
+	border-color: #353F5B;
+}
+
+QListView::item:selected
+{
+	background-color: #6F3A8A;
+	color: white;	
+}
+
+QLineEdit
+{
+	background-color: #252C40;
+	border-radius: 6px;
+	color: #ffffff;	
+}
+
+QLineEdit::focus
+{
+	border: 1px solid;
+	border-color: #2e86c1;
+}
+
+QPushButton
+{
+	background-color: #512e5f;
+	border-radius: 6px;
+	height: 30px;
+}
+
+QPushButton::hover
+{
+	background-color: #884ea0;
+}
+
+QPushButton::pressed
+{
+	background-color: #4a235a;
+}
